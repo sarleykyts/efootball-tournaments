@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eFootball Tournaments</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0b0c10">
+    <style>
+        body { font-family: sans-serif; background: #0b0c10; color: #fff; text-align: center; padding: 20px; }
+        .btn { background: #66fcf1; padding: 15px 30px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>eFootball Champions Cup</h1>
+    <p>Tournament Date: 20 July</p>
+    <button class="btn" onclick="alert('Registration form goes here!')">Register Now</button>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
